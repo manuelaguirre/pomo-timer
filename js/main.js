@@ -1,4 +1,4 @@
-const $clockDisplay = document.querySelector("#clock-display");
+
 
 
 
