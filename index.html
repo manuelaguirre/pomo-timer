@@ -4,29 +4,53 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>Pomodorox</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
 
     <div class="grid-x align-center">
-      
-      
+
+
       <div class="cell small-6">
         <h1>Pomodorox</h1>
         <h2 class="subheader">Your timer, always.</h2>
       </div>
-      
+
 
     </div>
-<div class="grid-x align-center">
-  
-</div>
+    <div class="grid-x grid-margin-x align-center" id="dashboard">
+      <div class="cell small-4 content-centered">
+        <button type="button" class="primary button small" id="time-block-button">P</button>
+      </div>
+      
+      <div class="cell small-4">
+        <div class="button-group small test1 content-centered">
+        <button type="button" class="primary button" id="long-break-button">L</button>
+        <button type="button" class="primary button" id="short-break-button">S</button>
+      </div></div>
 
-  </div>
 
-  <div class="grid-x align-center" id="clock-display">00:00</div>
+    </div>
+    <div class="grid-x align-center">
+
+      <div class="cell small-8 test1" id="clock-display">00:00</div>
+    </div>
+
+    <div class="grid-x grid-margin-x align-center">
+
+      <div class="cell small-4">
+        <button type="button" class="success button expanded" id="run-clock-button">Run</button>
+      </div>
+
+      <div class="cell small-4">
+        <button type="button" class="alert button expanded disabled" id="stop-clock-button">Stop</button>
+      </div>
+
+    </div>
+
+
 
 
 
